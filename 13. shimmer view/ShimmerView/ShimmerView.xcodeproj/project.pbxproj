@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADD8A2F4216DA285001F6D97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD8A2F3216DA285001F6D97 /* AppDelegate.swift */; };
+		ADD8A2F6216DA285001F6D97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD8A2F5216DA285001F6D97 /* ViewController.swift */; };
+		ADD8A2F9216DA285001F6D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD8A2F7216DA285001F6D97 /* Main.storyboard */; };
+		ADD8A2FB216DA286001F6D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADD8A2FA216DA286001F6D97 /* Assets.xcassets */; };
+		ADD8A2FE216DA286001F6D97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD8A2FC216DA286001F6D97 /* LaunchScreen.storyboard */; };
+		ADD8A309216DA286001F6D97 /* ShimmerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD8A308216DA286001F6D97 /* ShimmerViewTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADD8A305216DA286001F6D97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADD8A2E8216DA285001F6D97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADD8A2EF216DA285001F6D97;
+			remoteInfo = ShimmerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADD8A2F0216DA285001F6D97 /* ShimmerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShimmerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD8A2F3216DA285001F6D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADD8A2F5216DA285001F6D97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADD8A2F8216DA285001F6D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADD8A2FA216DA286001F6D97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADD8A2FD216DA286001F6D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADD8A2FF216DA286001F6D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADD8A304216DA286001F6D97 /* ShimmerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShimmerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD8A308216DA286001F6D97 /* ShimmerViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerViewTests.swift; sourceTree = "<group>"; };
+		ADD8A30A216DA286001F6D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADD8A2ED216DA285001F6D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD8A301216DA286001F6D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADD8A2E7216DA285001F6D97 = {
+			isa = PBXGroup;
+			children = (
+				ADD8A2F2216DA285001F6D97 /* ShimmerView */,
+				ADD8A307216DA286001F6D97 /* ShimmerViewTests */,
+				ADD8A2F1216DA285001F6D97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADD8A2F1216DA285001F6D97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADD8A2F0216DA285001F6D97 /* ShimmerView.app */,
+				ADD8A304216DA286001F6D97 /* ShimmerViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADD8A2F2216DA285001F6D97 /* ShimmerView */ = {
+			isa = PBXGroup;
+			children = (
+				ADD8A2F3216DA285001F6D97 /* AppDelegate.swift */,
+				ADD8A2F5216DA285001F6D97 /* ViewController.swift */,
+				ADD8A2F7216DA285001F6D97 /* Main.storyboard */,
+				ADD8A2FA216DA286001F6D97 /* Assets.xcassets */,
+				ADD8A2FC216DA286001F6D97 /* LaunchScreen.storyboard */,
+				ADD8A2FF216DA286001F6D97 /* Info.plist */,
+			);
+			path = ShimmerView;
+			sourceTree = "<group>";
+		};
+		ADD8A307216DA286001F6D97 /* ShimmerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADD8A308216DA286001F6D97 /* ShimmerViewTests.swift */,
+				ADD8A30A216DA286001F6D97 /* Info.plist */,
+			);
+			path = ShimmerViewTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADD8A2EF216DA285001F6D97 /* ShimmerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD8A30D216DA286001F6D97 /* Build configuration list for PBXNativeTarget "ShimmerView" */;
+			buildPhases = (
+				ADD8A2EC216DA285001F6D97 /* Sources */,
+				ADD8A2ED216DA285001F6D97 /* Frameworks */,
+				ADD8A2EE216DA285001F6D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShimmerView;
+			productName = ShimmerView;
+			productReference = ADD8A2F0216DA285001F6D97 /* ShimmerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADD8A303216DA286001F6D97 /* ShimmerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD8A310216DA286001F6D97 /* Build configuration list for PBXNativeTarget "ShimmerViewTests" */;
+			buildPhases = (
+				ADD8A300216DA286001F6D97 /* Sources */,
+				ADD8A301216DA286001F6D97 /* Frameworks */,
+				ADD8A302216DA286001F6D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADD8A306216DA286001F6D97 /* PBXTargetDependency */,
+			);
+			name = ShimmerViewTests;
+			productName = ShimmerViewTests;
+			productReference = ADD8A304216DA286001F6D97 /* ShimmerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADD8A2E8216DA285001F6D97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Ashis Laha";
+				TargetAttributes = {
+					ADD8A2EF216DA285001F6D97 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					ADD8A303216DA286001F6D97 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = ADD8A2EF216DA285001F6D97;
+					};
+				};
+			};
+			buildConfigurationList = ADD8A2EB216DA285001F6D97 /* Build configuration list for PBXProject "ShimmerView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADD8A2E7216DA285001F6D97;
+			productRefGroup = ADD8A2F1216DA285001F6D97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADD8A2EF216DA285001F6D97 /* ShimmerView */,
+				ADD8A303216DA286001F6D97 /* ShimmerViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADD8A2EE216DA285001F6D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD8A2FE216DA286001F6D97 /* LaunchScreen.storyboard in Resources */,
+				ADD8A2FB216DA286001F6D97 /* Assets.xcassets in Resources */,
+				ADD8A2F9216DA285001F6D97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD8A302216DA286001F6D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADD8A2EC216DA285001F6D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD8A2F6216DA285001F6D97 /* ViewController.swift in Sources */,
+				ADD8A2F4216DA285001F6D97 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD8A300216DA286001F6D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD8A309216DA286001F6D97 /* ShimmerViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADD8A306216DA286001F6D97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADD8A2EF216DA285001F6D97 /* ShimmerView */;
+			targetProxy = ADD8A305216DA286001F6D97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADD8A2F7216DA285001F6D97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADD8A2F8216DA285001F6D97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADD8A2FC216DA286001F6D97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADD8A2FD216DA286001F6D97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADD8A30B216DA286001F6D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADD8A30C216DA286001F6D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADD8A30E216DA286001F6D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3Z9URG96M;
+				INFOPLIST_FILE = ShimmerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashislaha.ShimmerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADD8A30F216DA286001F6D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3Z9URG96M;
+				INFOPLIST_FILE = ShimmerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashislaha.ShimmerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ADD8A311216DA286001F6D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3Z9URG96M;
+				INFOPLIST_FILE = ShimmerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashislaha.ShimmerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShimmerView.app/ShimmerView";
+			};
+			name = Debug;
+		};
+		ADD8A312216DA286001F6D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3Z9URG96M;
+				INFOPLIST_FILE = ShimmerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashislaha.ShimmerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShimmerView.app/ShimmerView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADD8A2EB216DA285001F6D97 /* Build configuration list for PBXProject "ShimmerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD8A30B216DA286001F6D97 /* Debug */,
+				ADD8A30C216DA286001F6D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD8A30D216DA286001F6D97 /* Build configuration list for PBXNativeTarget "ShimmerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD8A30E216DA286001F6D97 /* Debug */,
+				ADD8A30F216DA286001F6D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD8A310216DA286001F6D97 /* Build configuration list for PBXNativeTarget "ShimmerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD8A311216DA286001F6D97 /* Debug */,
+				ADD8A312216DA286001F6D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADD8A2E8216DA285001F6D97 /* Project object */;
+}
