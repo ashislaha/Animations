@@ -1,6 +1,6 @@
 # Animations
 
-We will try to explore different iOS animations which are widely used.
+I will try to explore different iOS animations which are widely used.
 
 ## 01. Shimmer view:
 
