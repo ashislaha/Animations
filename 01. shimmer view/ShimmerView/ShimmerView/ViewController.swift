@@ -30,20 +30,20 @@ class ShimmerView: UIView {
         // add gradient layer to view layer hierarchy
         let gradientLayer = CAGradientLayer()
         gradientLayer.frame = bounds
-        let gradientSize = Float(150.0 / frame.size.width)
         let gradientColor = UIColor(red: 225.0/255.0, green: 225.0/255.0, blue: 225.0/255.0, alpha: 1.0)
-        let startLocations: [NSNumber] = [0.0, NSNumber(value: gradientSize/2.0), NSNumber(value: gradientSize)]
-        let endLocations: [NSNumber] = [NSNumber(value: (1.0 - gradientSize)), NSNumber(value: 1.0 - gradientSize / 2), 1.0]
         
+        // gradient layer color and their locations
         gradientLayer.colors = [gradientColor.cgColor, gradientColor.withAlphaComponent(0.1).cgColor, gradientColor.cgColor]
-        gradientLayer.locations = startLocations
-        gradientLayer.startPoint = CGPoint(x: (0 - CGFloat(gradientSize * 2.0)), y: 0.5)
-        gradientLayer.endPoint = CGPoint(x: CGFloat(1.0 + gradientSize), y: 0.7)
+        gradientLayer.locations = [0.0, 0.5, 1.0]
+        
+        // direction of gradient layer (left to right)
+        gradientLayer.startPoint = CGPoint(x: 0.0, y: 0.5)
+        gradientLayer.endPoint = CGPoint(x: 1.0, y: 0.5)
         
         // add animation to gradient layer
         let basicAnimation = CABasicAnimation(keyPath: "locations")
-        basicAnimation.fromValue = startLocations
-        basicAnimation.toValue = endLocations
+        basicAnimation.fromValue = [0.0, 0.25, 0.5]
+        basicAnimation.toValue = [0.5, 0.75, 1.0]
         basicAnimation.duration = 1.5
         basicAnimation.repeatCount = Float.infinity
         gradientLayer.add(basicAnimation, forKey: "shimmer animation")
