@@ -27,31 +27,34 @@ class ShimmerView: UIView {
     
     private func setup() {
         
-        // add gradient layer to view layer hierarchy
+        // 1. Add Color Layer
+        let colorLayer = CALayer()
+        colorLayer.backgroundColor = UIColor(white: 0.9, alpha: 1).cgColor
+        colorLayer.frame = bounds
+        colorLayer.name = "colorLayer"
+        layer.addSublayer(colorLayer)
+        autoresizesSubviews = true
+        clipsToBounds = true
+        
+        // 2. Add loader Layer
         let gradientLayer = CAGradientLayer()
-        gradientLayer.frame = bounds
-        let gradientColor = UIColor(red: 225.0/255.0, green: 225.0/255.0, blue: 225.0/255.0, alpha: 1.0)
-        
-        // gradient layer color and their locations
-        gradientLayer.colors = [gradientColor.cgColor, gradientColor.withAlphaComponent(0.1).cgColor, gradientColor.cgColor]
-        gradientLayer.locations = [0.0, 0.5, 1.0]
-        
-        // direction of gradient layer (left to right)
+        gradientLayer.colors = [UIColor(white: 0.9, alpha: 1).cgColor,
+                                UIColor(white: 0.97, alpha: 1).cgColor,
+                                UIColor(white: 0.9, alpha: 1).cgColor]
+        gradientLayer.locations = [0,0.4,0.8, 1]
+        gradientLayer.name = "loaderLayer"
         gradientLayer.startPoint = CGPoint(x: 0.0, y: 0.5)
         gradientLayer.endPoint = CGPoint(x: 1.0, y: 0.5)
+        gradientLayer.frame = bounds
+        layer.addSublayer(gradientLayer)
         
-        // add animation to gradient layer
-        let basicAnimation = CABasicAnimation(keyPath: "locations")
-        basicAnimation.fromValue = [0.0, 0.25, 0.5]
-        basicAnimation.toValue = [0.5, 0.75, 1.0]
-        basicAnimation.duration = 1.5
-        basicAnimation.repeatCount = Float.infinity
-        gradientLayer.add(basicAnimation, forKey: "shimmer animation")
-        
-        layer.mask = gradientLayer
-        
-        backgroundColor = gradientColor
-        clipsToBounds = true
+        // 3. Animate loader layer
+        let animation = CABasicAnimation(keyPath: "transform.translation.x")
+        animation.duration = 3.0
+        animation.fromValue = -frame.width
+        animation.toValue = frame.width
+        animation.repeatCount = Float.infinity
+        gradientLayer.add(animation, forKey: "smartLoader")
     }
 }
 
